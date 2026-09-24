@@ -7,8 +7,8 @@ window.onerror = function(msg, src, line, col) {
   }).catch(() => {});
 };
 
-// Migration notice for GitHub Pages users
-if (location.hostname === 'segattobuilder.github.io') {
+// Migration notice
+{
   const banner = document.createElement('div');
   banner.id = 'migrationBanner';
   banner.style.cssText = 'position:fixed;top:0;left:0;right:0;z-index:9999;background:rgba(26,23,20,0.97);border-bottom:2px solid #d4a017;padding:14px 20px;text-align:center;font-size:13px;color:#f5efe6;backdrop-filter:blur(8px)';
